@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["ABCDE12345.com.example.dailyval"],
+        "appIDs": ["ABCDE12345.com.example.yourapp"],
         "components": [
           {
             "/": "/social*",
@@ -11,6 +11,10 @@
           {
             "???": "postID=*",
             "comment": "Matches any URL with a postID query parameter"
+          },
+          {
+            "/": "*",
+            "comment": "Matches any URL on dailyval.com"
           }
         ]
       }
