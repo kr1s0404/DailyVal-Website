@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["46U3CJ7CE5.Kr1s.Valorant"],
+        "components": [
+          {
+            "/": "/post?*",
+            "comment": "Matches any URL whose path starts with /post and has additional parameters."
+          }
+        ]
+      }
+    ]
+  }
+}
