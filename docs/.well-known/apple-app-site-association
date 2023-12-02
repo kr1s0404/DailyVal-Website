@@ -5,8 +5,12 @@
         "appIDs": ["ABCDE12345.com.example.dailyval"],
         "components": [
           {
-            "/": "/post/*",
-            "comment": "Matches any URL whose path starts with /post/"
+            "/": "/social*",
+            "comment": "Matches any URL whose path starts with /social"
+          },
+          {
+            "???": "postID=*",
+            "comment": "Matches any URL with a postID query parameter"
           }
         ]
       }
