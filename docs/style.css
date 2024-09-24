@@ -257,3 +257,63 @@ section.bg::before {
     margin-top: 3rem;
   }
 }
+
+.support-content {
+  padding: 5rem 0;
+}
+
+.support-content h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.support-content p {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-info, .faq {
+  background: #ffffff13;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contact-info h2, .faq h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contact-info p, .faq p {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info ul, .faq ul {
+  list-style-type: none;
+  padding-left: 2rem;
+}
+
+.contact-info ul li, .faq ul li {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.faq h3 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  background: var(--primary);
+  border-radius: 5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff6b76;
+}
