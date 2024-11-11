@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["ABCDE12345.com.example.yourapp"],
+        "appIDs": ["Kr1s.Valorant"],
         "components": [
           {
             "/": "/social*",
