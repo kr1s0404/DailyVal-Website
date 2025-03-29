@@ -367,3 +367,67 @@ footer .log img {
   vertical-align: middle;
   object-fit: contain;
 }
+
+/* Navigation Bar Styles */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.main-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.main-nav a {
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+  font-weight: 400;
+}
+
+.main-nav a:hover {
+  color: var(--primary);
+}
+
+.mobile-nav-toggle {
+  display: none;
+  background: transparent;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+  .main-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    background: #1c253b;
+    height: 100vh;
+    width: 250px;
+    padding: 8rem 2rem 2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .main-nav.active {
+    transform: translateX(0);
+  }
+  
+  .mobile-nav-toggle {
+    display: block;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 2000;
+  }
+  
+  header .logo {
+    z-index: 900;
+  }
+}
