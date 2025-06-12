@@ -7,134 +7,325 @@
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
-  <meta property="og:title" content="DailyVal 首頁" />
+  <meta property="og:title" content="DailyVal - Your Ultimate Valorant Companion" />
   <meta property="og:image" content="images/app icon.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:url" content="https://ios.dailyval.com" />
-  <meta property="og:site_name" content="DailyVal 首頁" />
+  <meta property="og:site_name" content="DailyVal" />
   <link rel="canonical" href="https://ios.dailyval.com" />
-  <meta property="og:description" content="DailyVal 是一款專為 Valorant 玩家設計的 APP，提供社群互動、分享造型、即時查看對戰等功能。即使在外出時，也能持續與遊戲連繫，輕鬆管理帳號。內含積分查詢、商城造型瀏覽、牌位追蹤、數據分析，以及新聞資訊。此外，還有專為提升曝光度的主播計畫。加入DailyVal，享受免費的強大功能，隨時掌握遊戲最新動態">
-  <meta name="description" content="DailyVal 是一款專為 Valorant 玩家設計的 APP，提供社群互動、分享造型、即時查看對戰等功能。即使在外出時，也能持續與遊戲連繫，輕鬆管理帳號。內含積分查詢、商城造型瀏覽、牌位追蹤、數據分析，以及新聞資訊。此外，還有專為提升曝光度的主播計畫。加入DailyVal，享受免費的強大功能，隨時掌握遊戲最新動態">
+  <meta property="og:description" content="DailyVal is the ultimate companion app for Valorant players. Connect with the community, share your loadouts, track matches in real-time, and stay connected to the game even when you're on the go.">
+  <meta name="description" content="DailyVal is the ultimate companion app for Valorant players. Connect with the community, share your loadouts, track matches in real-time, and stay connected to the game even when you're on the go.">
   <meta name="twitter:card" content="summary_large_image">
-  <title>DailyVal</title>
+  <title>DailyVal - Your Ultimate Valorant Companion</title>
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="nav-container">
-        <div class="logo">
-          <img src="images/app icon.png" alt="">
-          <div>
-            <h2>DailyVal</h2>
-            <p>每日特戰英豪</p>
-          </div>
+  <!-- Navigation Header -->
+  <header class="glass-header">
+    <nav class="nav-container">
+      <div class="logo">
+        <img src="images/app icon.png" alt="DailyVal Logo" class="logo-icon">
+        <div class="logo-text">
+          <h2>DailyVal</h2>
+          <span>Your Valorant Companion</span>
         </div>
-        <button class="mobile-nav-toggle">
-          <i class="uil uil-bars"></i>
-        </button>
-        <nav class="main-nav">
-          <a href="index.html">首頁</a>
-          <a href="support.html">支援</a>
-          <a href="tos.html">服務條款</a>
-          <a href="privacy-policies.html">隱私政策</a>
-          <a href="https://apps.apple.com/tw/app/dailyval/id1637782901">下載</a>
-        </nav>
       </div>
-    </div>
+      <button class="mobile-nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="main-nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#showcase" class="nav-link">Showcase</a>
+        <a href="support.html" class="nav-link">Support</a>
+        <a href="https://apps.apple.com/tw/app/dailyval/id1637782901" class="download-btn">
+          <i class="uil uil-apple"></i>
+          Download
+        </a>
+      </div>
+    </nav>
   </header>
-  <main>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-background">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
     <div class="container">
-      <div class="grid-2">
-        <div class="contents">
-          <h1>一款專為特戰英豪設計的<span>APP</span>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            Your Ultimate
+            <span class="gradient-text">Valorant</span>
+            Companion
           </h1>
-          <a href="https://apps.apple.com/app/dailyval/id1637782901"><Button>前往下載</Button></a>
-        </div>
-        <div class="hero">
-          <img src="images/hero.png" alt="">
-          <img src="images/blur.png" alt="" class="bg">
-        </div>
-      </div>
-    </div>
-  </main>
-  <section class="bg">
-    <div class="container">
-      <div class="title">
-        <h2>Connect with Friends</h2>
-        <p>商城出現了自己喜愛造型卻不敢下手嗎？ 在 APP 裡與他人發文分享您的每日造型！
-        </p>
-      </div>
-      <div class="grid-4">
-        <div class="frame">
-          <img src="images/1.png" alt="">
-          <a href="#"><button>每日商城</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/2.png" alt="">
-          <a href="#"><button>社群看板</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/3.png" alt="">
-          <a href="#"><button>個人裝備</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/4.png" alt="">
-          <a href="#"><button>個人設定</button></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg">
-    <div class="container">
-      <div class="title">
-        <h2>Showcase Your Match</h2>
-        <p>昨晚在家拿到了五殺嗎？快開啟APP與朋友分享您的最佳戰績！
-        </p>
-      </div>
-      <div class="grid-4">
-        <div class="frame">
-          <img src="images/5.png" alt="">
-          <a href="#"><button>對戰紀錄</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/6.png" alt="">
-          <a href="#"><button>即時對戰</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/7.png" alt="">
-          <a href="#"><button>回合詳情</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/8.png" alt="">
-          <a href="#"><button>遠端選角</button></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container b1">
-      <div class="grid-3" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-        <div class="vs" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;">
-          <h4 style="text-align: center; margin-bottom: 20px;">新作登場<br>立即探索、先睹為快</h4>
-          <a href="https://apps.apple.com/tw/app/dailyval/id1637782901?itscg=30200&itsct=apps_box_badge&mttnsubad=1637782901" style="display: inline-block;">
-            <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/zh-tw?releaseDate=1661126400" alt="Download on the App Store" style="width: 224px; height: 82px; vertical-align: middle; object-fit: contain;" />
-          </a>
-        </div>
-        <div class="social" style="text-align: center; margin-top: 20px;">
-          <div class="log" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 15px;">
-            <img src="images/app icon.png" alt="" style="width: 100px; height: auto; margin-bottom: 10px;">
-            <h2>DailyVal</h2>
+          <p class="hero-description">
+            Connect with the community, share your epic moments, and track your progress in real-time. 
+            DailyVal brings the Valorant universe to your fingertips.
+          </p>
+          <div class="hero-actions">
+            <a href="https://apps.apple.com/app/dailyval/id1637782901" class="primary-btn">
+              <i class="uil uil-apple"></i>
+              Download for iOS
+            </a>
+            <button class="secondary-btn" onclick="scrollToFeatures()">
+              <i class="uil uil-play-circle"></i>
+              Explore Features
+            </button>
           </div>
-          <div class="links">
-            <a href="https://www.instagram.com/dailyval_official/"><i class="uil uil-instagram"></i></a>
-            <a href="https://www.threads.net/@dailyval_official"><i class="uil uil-at"></i></a>
+          <div class="stats-row">
+            <div class="stat-item">
+              <h3>50K+</h3>
+              <p>Active Users</p>
+            </div>
+            <div class="stat-item">
+              <h3>4.8★</h3>
+              <p>App Store Rating</p>
+            </div>
+            <div class="stat-item">
+              <h3>100K+</h3>
+              <p>Matches Tracked</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="phone-mockup">
+            <img src="images/hero.png" alt="DailyVal App Screenshot" class="app-screenshot">
+            <div class="floating-card card-1">
+              <i class="uil uil-trophy"></i>
+              <span>Match Victory!</span>
+            </div>
+            <div class="floating-card card-2">
+              <i class="uil uil-users-alt"></i>
+              <span>New Friend Request</span>
+            </div>
+            <div class="floating-card card-3">
+              <i class="uil uil-fire"></i>
+              <span>Daily Store Updated</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Connect & Share</h2>
+        <p class="section-subtitle">
+          Discover new skins, share your loadouts, and connect with fellow agents. 
+          Your Valorant community awaits.
+        </p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" data-feature="store">
+          <div class="feature-icon">
+            <img src="images/1.png" alt="Daily Store" class="feature-image">
+          </div>
+          <div class="feature-content">
+            <h3>Daily Store</h3>
+            <p>Never miss your favorite skins. Get instant notifications when new items arrive in your daily store.</p>
+            <div class="feature-tags">
+              <span class="tag">Real-time</span>
+              <span class="tag">Notifications</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="feature-card" data-feature="community">
+          <div class="feature-icon">
+            <img src="images/2.png" alt="Community Board" class="feature-image">
+          </div>
+          <div class="feature-content">
+            <h3>Community Board</h3>
+            <p>Share your best plays, discuss strategies, and connect with players who share your passion.</p>
+            <div class="feature-tags">
+              <span class="tag">Social</span>
+              <span class="tag">Interactive</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="feature-card" data-feature="loadout">
+          <div class="feature-icon">
+            <img src="images/3.png" alt="Personal Loadout" class="feature-image">
+          </div>
+          <div class="feature-content">
+            <h3>Personal Loadout</h3>
+            <p>Showcase your collection, plan your purchases, and get recommendations based on your preferences.</p>
+            <div class="feature-tags">
+              <span class="tag">Personalized</span>
+              <span class="tag">Smart</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="feature-card" data-feature="settings">
+          <div class="feature-icon">
+            <img src="images/4.png" alt="Smart Settings" class="feature-image">
+          </div>
+          <div class="feature-content">
+            <h3>Smart Settings</h3>
+            <p>Customize your experience with intelligent preferences and seamless account management.</p>
+            <div class="feature-tags">
+              <span class="tag">Customizable</span>
+              <span class="tag">Secure</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase Section -->
+  <section id="showcase" class="showcase-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Track Your Journey</h2>
+        <p class="section-subtitle">
+          From clutch moments to epic victories, capture and share your Valorant highlights 
+          with the community.
+        </p>
+      </div>
+      <div class="showcase-grid">
+        <div class="showcase-card card-large">
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Match Analytics</h3>
+              <span class="badge">Live</span>
+            </div>
+            <img src="images/5.png" alt="Match History" class="showcase-image">
+            <p>Deep dive into your performance with detailed statistics and improvement insights.</p>
+          </div>
+        </div>
+        
+        <div class="showcase-card">
+          <div class="card-content">
+            <h3>Live Match Tracking</h3>
+            <img src="images/6.png" alt="Live Match" class="showcase-image">
+            <p>Follow ongoing matches in real-time with live scoreboards and player stats.</p>
+          </div>
+        </div>
+        
+        <div class="showcase-card">
+          <div class="card-content">
+            <h3>Round Breakdown</h3>
+            <img src="images/7.png" alt="Round Details" class="showcase-image">
+            <p>Analyze every round with detailed breakdowns and tactical insights.</p>
+          </div>
+        </div>
+        
+        <div class="showcase-card card-highlight">
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Remote Agent Select</h3>
+              <span class="badge premium">Premium</span>
+            </div>
+            <img src="images/8.png" alt="Remote Select" class="showcase-image">
+            <p>Select your agent remotely and get strategic recommendations based on team composition.</p>
+            <div class="feature-highlight">
+              <i class="uil uil-rocket"></i>
+              <span>Game-changing feature</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section class="download-section">
+    <div class="container">
+      <div class="download-card">
+        <div class="download-content">
+          <div class="download-text">
+            <h2>Ready to Level Up?</h2>
+            <p>Join thousands of Valorant players already using DailyVal to enhance their gaming experience.</p>
+            <div class="download-features">
+              <div class="feature-check">
+                <i class="uil uil-check-circle"></i>
+                <span>Free to download</span>
+              </div>
+              <div class="feature-check">
+                <i class="uil uil-check-circle"></i>
+                <span>Regular updates</span>
+              </div>
+              <div class="feature-check">
+                <i class="uil uil-check-circle"></i>
+                <span>Premium features available</span>
+              </div>
+            </div>
+          </div>
+          <div class="download-actions">
+            <a href="https://apps.apple.com/tw/app/dailyval/id1637782901" class="app-store-btn">
+              <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/zh-tw?releaseDate=1661126400" alt="Download on the App Store" />
+            </a>
+            <div class="qr-code">
+              <div class="qr-placeholder">
+                <i class="uil uil-qrcode-scan"></i>
+                <span>Scan to Download</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <img src="images/app icon.png" alt="DailyVal" class="footer-logo">
+            <h3>DailyVal</h3>
+            <p>Your ultimate Valorant companion for tracking, sharing, and connecting with the community.</p>
+          </div>
+          <div class="footer-links">
+            <div class="link-group">
+              <h4>Product</h4>
+              <a href="#features">Features</a>
+              <a href="#showcase">Showcase</a>
+              <a href="https://apps.apple.com/tw/app/dailyval/id1637782901">Download</a>
+            </div>
+            <div class="link-group">
+              <h4>Support</h4>
+              <a href="support.html">Help Center</a>
+              <a href="tos.html">Terms of Service</a>
+              <a href="privacy-policies.html">Privacy Policy</a>
+            </div>
+            <div class="link-group">
+              <h4>Community</h4>
+              <a href="https://www.instagram.com/dailyval_official/">Instagram</a>
+              <a href="https://www.threads.net/@dailyval_official">Threads</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 DailyVal. All rights reserved.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/dailyval_official/" aria-label="Instagram">
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a href="https://www.threads.net/@dailyval_official" aria-label="Threads">
+              <i class="uil uil-at"></i>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </footer>
+
+  <!-- Background Elements -->
+  <div class="scroll-indicator"></div>
 </body>
 
 </html>
