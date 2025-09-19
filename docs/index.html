@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 
 <head>
   <meta charset="UTF-8">
@@ -7,130 +7,331 @@
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
-  <meta property="og:title" content="DailyVal 首頁" />
-  <meta property="og:image" content="images/app icon.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:url" content="https://ios.dailyval.com" />
-  <meta property="og:site_name" content="DailyVal 首頁" />
-  <link rel="canonical" href="https://ios.dailyval.com" />
-  <meta property="og:description" content="DailyVal 是一款專為 Valorant 玩家設計的 APP，提供社群互動、分享造型、即時查看對戰等功能。即使在外出時，也能持續與遊戲連繫，輕鬆管理帳號。內含積分查詢、商城造型瀏覽、牌位追蹤、數據分析，以及新聞資訊。此外，還有專為提升曝光度的主播計畫。加入DailyVal，享受免費的強大功能，隨時掌握遊戲最新動態">
-  <meta name="description" content="DailyVal 是一款專為 Valorant 玩家設計的 APP，提供社群互動、分享造型、即時查看對戰等功能。即使在外出時，也能持續與遊戲連繫，輕鬆管理帳號。內含積分查詢、商城造型瀏覽、牌位追蹤、數據分析，以及新聞資訊。此外，還有專為提升曝光度的主播計畫。加入DailyVal，享受免費的強大功能，隨時掌握遊戲最新動態">
+
+  <!-- SEO Meta Tags -->
+  <title>DailyVal - 超過 80 萬玩家的特戰英豪專用社群 APP | 戰績查詢、造型分享、每日商城</title>
+  <meta name="description" content="DailyVal 是台灣香港最受歡迎的特戰英豪社群 APP，已有超過 80 萬玩家加入！提供戰績查詢、每日商城追蹤、造型分享等功能。立即下載加入亞洲最大的 Valorant 玩家社群！">
+  <meta name="keywords" content="特戰英豪,Valorant,APP,社群,戰績,造型,商城,台灣,香港,80萬用戶">
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="DailyVal - 超過 80 萬玩家的特戰英豪專用社群 APP">
+  <meta property="og:description" content="亞洲最大的特戰英豪社群 APP，已有超過 80 萬玩家加入！戰績查詢、造型分享、每日商城追蹤。">
+  <meta property="og:image" content="https://ios.dailyval.com/images/app%20icon.png">
+  <meta property="og:url" content="https://ios.dailyval.com">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_TW">
+
+  <!-- Twitter Card Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <title>DailyVal</title>
+  <meta name="twitter:title" content="DailyVal - 超過 80 萬玩家的特戰英豪專用社群 APP">
+  <meta name="twitter:description" content="亞洲最大的特戰英豪社群 APP，已有超過 80 萬玩家加入！戰績查詢、造型分享、每日商城追蹤。">
+  <meta name="twitter:image" content="https://ios.dailyval.com/images/app%20icon.png">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "DailyVal",
+    "description": "特戰英豪專用社群 APP，提供戰績查詢、造型分享、每日商城追蹤等功能",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "iOS",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "TWD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "15600"
+    }
+  }
+  </script>
+
+  <link rel="canonical" href="https://ios.dailyval.com">
 </head>
 
 <body>
-  <header>
+  <!-- Header -->
+  <header class="site-header">
     <div class="container">
-      <div class="nav-container">
-        <div class="logo">
-          <img src="images/app icon.png" alt="">
-          <div>
-            <h2>DailyVal</h2>
-            <p>每日特戰英豪</p>
-          </div>
+      <div class="header-container">
+        <div class="header-brand">
+          <a href="/" class="header-brand">
+            <img src="images/app icon.png" alt="DailyVal" class="brand-icon">
+            <div class="brand-text">
+              <span class="brand-name">DailyVal</span>
+              <span class="brand-tagline">每日特戰英豪</span>
+            </div>
+          </a>
         </div>
-        <button class="mobile-nav-toggle">
-          <i class="uil uil-bars"></i>
-        </button>
-        <nav class="main-nav">
-          <a href="index.html">首頁</a>
-          <a href="support.html">支援</a>
-          <a href="tos.html">服務條款</a>
-          <a href="privacy-policies.html">隱私政策</a>
-          <a href="https://apps.apple.com/tw/app/dailyval/id1637782901">下載</a>
+
+        <nav class="main-navigation" aria-label="主要導覽">
+          <a href="index.html" class="nav-link" aria-current="page">首頁</a>
+          <a href="social-board.html" class="nav-link">社群看板</a>
+          <a href="support.html" class="nav-link">支援</a>
+          <a href="tos.html" class="nav-link">服務條款</a>
+          <a href="privacy-policies.html" class="nav-link">隱私政策</a>
         </nav>
+
+        <div class="header-actions">
+          <a href="https://apps.apple.com/tw/app/dailyval/id1637782901" class="btn btn-primary download-btn">
+            <span>📱</span>
+            <span>下載</span>
+          </a>
+
+          <button class="mobile-menu-toggle" aria-label="開啟選單">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
       </div>
     </div>
   </header>
+
   <main>
-    <div class="container">
-      <div class="grid-2">
-        <div class="contents">
-          <h1>一款專為特戰英豪設計的<span>APP</span>
-          </h1>
-          <a href="https://apps.apple.com/app/dailyval/id1637782901"><Button>前往下載</Button></a>
-        </div>
-        <div class="hero">
-          <img src="images/hero.png" alt="">
-          <img src="images/blur.png" alt="" class="bg">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span>🎮</span>
+              <span>亞洲第一 Valorant 社群</span>
+            </div>
+
+            <h1 class="hero-title">
+              DailyVal
+              <span class="hero-subtitle">隨時掌握遊戲動態</span>
+            </h1>
+
+            <p class="hero-description">
+              加入超過 80 萬玩家的頂尖社群！社群互動、裝備管理、戰績追蹤 — 亞洲最大的 Valorant 助手應用
+            </p>
+
+            <div class="hero-actions">
+              <a href="https://apps.apple.com/tw/app/dailyval/id1637782901" class="btn btn-accent">
+                <span>📱</span>
+                <span>免費下載</span>
+              </a>
+              <a href="#features" class="btn btn-secondary">了解功能</a>
+            </div>
+
+            <div class="hero-social-proof">
+              <div class="rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">4.8 分 • 15,600+ 評價 • App Store</span>
+              </div>
+              <div class="user-stats">
+                <div class="stat-item">
+                  <span class="stat-value">800,000+</span>
+                  <span class="stat-label">活躍用戶</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">#1</span>
+                  <span class="stat-label">亞洲第一 Valorant APP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="phone-mockup">
+              <img src="images/hero.png" alt="DailyVal 應用程式介面" class="hero-image">
+              <div class="floating-elements">
+                <div class="feature-highlight feature-1">社群互動</div>
+                <div class="feature-highlight feature-2">即時數據</div>
+                <div class="feature-highlight feature-3">裝備管理</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">80 萬玩家信賴的強大功能</h2>
+          <p class="section-description">
+            與亞洲最大的 Valorant 社群一起，享受無與倫比的遊戲體驗
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🏪</div>
+            <h3 class="feature-title">每日商城</h3>
+            <p class="feature-description">
+              即時追蹤商城更新，不錯過任何心愛的造型與武器外觀
+            </p>
+            <div class="feature-preview">
+              <img src="images/1.png" alt="每日商城功能預覽">
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">👥</div>
+            <h3 class="feature-title">社群看板</h3>
+            <p class="feature-description">
+              與 80 萬玩家分享戰績、討論策略，在亞洲最活躍的 Valorant 社群中建立你的聲望
+            </p>
+            <div class="feature-preview">
+              <img src="images/2.png" alt="社群看板功能預覽">
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🎒</div>
+            <h3 class="feature-title">個人裝備</h3>
+            <p class="feature-description">
+              管理你的武器收藏，展示獨特的造型搭配
+            </p>
+            <div class="feature-preview">
+              <img src="images/3.png" alt="個人裝備功能預覽">
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3 class="feature-title">戰績追蹤</h3>
+            <p class="feature-description">
+              詳細的數據分析，幫助你了解並提升遊戲表現
+            </p>
+            <div class="feature-preview">
+              <img src="images/5.png" alt="戰績追蹤功能預覽">
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">即時對戰</h3>
+            <p class="feature-description">
+              實時監控進行中的比賽，掌握最新戰況
+            </p>
+            <div class="feature-preview">
+              <img src="images/6.png" alt="即時對戰功能預覽">
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">⚙️</div>
+            <h3 class="feature-title">個人設定</h3>
+            <p class="feature-description">
+              客製化你的應用程式體驗，調整通知、主題和個人偏好設定
+            </p>
+            <div class="feature-preview">
+              <img src="images/4.png" alt="個人設定功能預覽">
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h3 class="feature-title">回合詳情</h3>
+            <p class="feature-description">
+              深入分析每一回合的表現，找出改進空間
+            </p>
+            <div class="feature-preview">
+              <img src="images/7.png" alt="回合詳情功能預覽">
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🎮</div>
+            <h3 class="feature-title">遠端選角</h3>
+            <p class="feature-description">
+              即使不在遊戲中也能提前選擇特務，為團隊戰略做好準備
+            </p>
+            <div class="feature-preview">
+              <img src="images/8.png" alt="遠端選角功能預覽">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2 class="cta-title">準備好加入 80 萬玩家的頂尖社群了嗎？</h2>
+          <p class="cta-description">
+            立即下載 DailyVal，成為亞洲最大 Valorant 社群的一員
+          </p>
+          <div class="cta-actions">
+            <a href="https://apps.apple.com/tw/app/dailyval/id1637782901?itscg=30200&itsct=apps_box_badge&mttnsubad=1637782901" class="app-store-button">
+              <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/zh-tw?releaseDate=1661126400" alt="在 App Store 上下載" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <section class="bg">
+
+  <!-- Footer -->
+  <footer class="site-footer">
     <div class="container">
-      <div class="title">
-        <h2>Connect with Friends</h2>
-        <p>商城出現了自己喜愛造型卻不敢下手嗎？ 在 APP 裡與他人發文分享您的每日造型！
-        </p>
-      </div>
-      <div class="grid-4">
-        <div class="frame">
-          <img src="images/1.png" alt="">
-          <a href="#"><button>每日商城</button></a>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <img src="images/app icon.png" alt="DailyVal">
+            <span class="brand-name">DailyVal</span>
+          </div>
+          <p class="brand-description">
+            亞洲第一大 Valorant 社群應用程式，超過 80 萬玩家的共同選擇
+          </p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/dailyval_official/" class="social-link" aria-label="Instagram">
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a href="https://www.threads.net/@dailyval_official" class="social-link" aria-label="Threads">
+              <i class="uil uil-at"></i>
+            </a>
+          </div>
         </div>
-        <div class="frame">
-          <img src="images/2.png" alt="">
-          <a href="#"><button>社群看板</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/3.png" alt="">
-          <a href="#"><button>個人裝備</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/4.png" alt="">
-          <a href="#"><button>個人設定</button></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg">
-    <div class="container">
-      <div class="title">
-        <h2>Showcase Your Match</h2>
-        <p>昨晚在家拿到了五殺嗎？快開啟APP與朋友分享您的最佳戰績！
-        </p>
-      </div>
-      <div class="grid-4">
-        <div class="frame">
-          <img src="images/5.png" alt="">
-          <a href="#"><button>對戰紀錄</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/6.png" alt="">
-          <a href="#"><button>即時對戰</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/7.png" alt="">
-          <a href="#"><button>回合詳情</button></a>
-        </div>
-        <div class="frame">
-          <img src="images/8.png" alt="">
-          <a href="#"><button>遠端選角</button></a>
+
+        <div class="footer-links">
+          <div class="link-group">
+            <h3 class="group-title">應用程式</h3>
+            <ul class="link-list">
+              <li><a href="#features">功能介紹</a></li>
+              <li><a href="https://apps.apple.com/tw/app/dailyval/id1637782901">下載</a></li>
+              <li><a href="support.html">版本更新</a></li>
+            </ul>
+          </div>
+
+          <div class="link-group">
+            <h3 class="group-title">支援</h3>
+            <ul class="link-list">
+              <li><a href="support.html">幫助中心</a></li>
+              <li><a href="mailto:support@dailyval.com">聯絡我們</a></li>
+              <li><a href="https://www.instagram.com/dailyval_official/">社群</a></li>
+            </ul>
+          </div>
+
+          <div class="link-group">
+            <h3 class="group-title">法律</h3>
+            <ul class="link-list">
+              <li><a href="tos.html">服務條款</a></li>
+              <li><a href="privacy-policies.html">隱私政策</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container b1">
-      <div class="grid-3" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-        <div class="vs" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;">
-          <h4 style="text-align: center; margin-bottom: 20px;">新作登場<br>立即探索、先睹為快</h4>
-          <a href="https://apps.apple.com/tw/app/dailyval/id1637782901?itscg=30200&itsct=apps_box_badge&mttnsubad=1637782901" style="display: inline-block;">
-            <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/zh-tw?releaseDate=1661126400" alt="Download on the App Store" style="width: 224px; height: 82px; vertical-align: middle; object-fit: contain;" />
+
+      <div class="footer-bottom">
+        <div class="download-section">
+          <h4 class="download-title">立即下載 DailyVal</h4>
+          <a href="https://apps.apple.com/tw/app/dailyval/id1637782901?itscg=30200&itsct=apps_box_badge&mttnsubad=1637782901" class="app-store-button">
+            <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/zh-tw?releaseDate=1661126400" alt="在 App Store 下載">
           </a>
         </div>
-        <div class="social" style="text-align: center; margin-top: 20px;">
-          <div class="log" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 15px;">
-            <img src="images/app icon.png" alt="" style="width: 100px; height: auto; margin-bottom: 10px;">
-            <h2>DailyVal</h2>
-          </div>
-          <div class="links">
-            <a href="https://www.instagram.com/dailyval_official/"><i class="uil uil-instagram"></i></a>
-            <a href="https://www.threads.net/@dailyval_official"><i class="uil uil-at"></i></a>
-          </div>
+
+        <div class="copyright">
+          <p>&copy; 2025 DailyVal. 保留所有權利。</p>
         </div>
       </div>
     </div>
