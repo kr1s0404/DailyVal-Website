@@ -1,2 +1,15 @@
 include:
   - .well-known
+
+# Clean URLs configuration
+permalink: pretty
+plugins:
+  - jekyll-optional-front-matter
+
+# Default front matter for all HTML files
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: /:basename/
