@@ -602,7 +602,7 @@ p {
 
 .phone-mockup {
   position: relative;
-  max-width: 700px;
+  max-width: 900px;
   width: 100%;
   animation: var(--animation-float);
 }
@@ -809,6 +809,7 @@ section {
   height: 100%;
   min-height: 380px;
 }
+
 
 .feature-card::before {
   content: '';
@@ -2092,16 +2093,6 @@ section {
   margin-bottom: var(--space-16);
 }
 
-.feature-preview {
-  background: var(--glass-primary);
-  backdrop-filter: blur(20px);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--radius-3xl);
-  padding: var(--space-8);
-  transition: all var(--transition-base);
-  position: relative;
-  overflow: hidden;
-}
 
 .feature-preview::before {
   content: '';
