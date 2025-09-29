@@ -2,19 +2,11 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["Kr1s.Valorant"],
+        "appIDs": ["46U3CJ7CE5.Kr1s.Valorant"],
         "components": [
           {
-            "/": "/social*",
-            "comment": "Matches any URL whose path starts with /social"
-          },
-          {
-            "???": "postID=*",
-            "comment": "Matches any URL with a postID query parameter"
-          },
-          {
-            "/": "*",
-            "comment": "Matches any URL on dailyval.com"
+            "/": "*/post/*",
+            "comment": "Matches all post URLs like /zh-TW/post/316B5EB5-9D51-4B88-83F8-A5DA5B9C8C24"
           }
         ]
       }
