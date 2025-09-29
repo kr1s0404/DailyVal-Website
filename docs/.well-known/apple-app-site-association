@@ -5,8 +5,16 @@
         "appIDs": ["46U3CJ7CE5.Kr1s.Valorant"],
         "components": [
           {
-            "/": "*/post/*",
-            "comment": "Matches all post URLs like /zh-TW/post/316B5EB5-9D51-4B88-83F8-A5DA5B9C8C24"
+            "/": "/*/post/*",
+            "comment": "Matches social post URLs like /zh-TW/post/318C096F-4C7A-46D8-A1AB-834B82B2E930"
+          },
+          {
+            "/": "/zh-TW/post/*",
+            "comment": "Matches Traditional Chinese post URLs specifically"
+          },
+          {
+            "/": "/en/post/*",
+            "comment": "Matches English post URLs"
           },
           {
             "/": "/ios*",
