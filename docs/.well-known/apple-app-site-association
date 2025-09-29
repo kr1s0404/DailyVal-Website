@@ -17,16 +17,8 @@
             "comment": "Matches English post URLs"
           },
           {
-            "/": "/ios*",
-            "comment": "Matches URLs starting with /ios for iOS app routing"
-          },
-          {
-            "/": "/social*",
-            "comment": "Matches URLs starting with /social for social features"
-          },
-          {
             "/": "*",
-            "comment": "Matches all other URLs as fallback"
+            "comment": "Matches all URLs on ios.dailyval.com domain - handles everything from ios.dailyval.com/*"
           }
         ]
       }
